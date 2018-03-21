@@ -1,0 +1,10 @@
+<h1>Duplication Counts</h1>
+
+<form method="post" action="/math/dupcount">
+    <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+    <input type='text' name='duplist' />
+    <input type='submit' name='Show Duplicates' />
+</form>
+
+
+<%= @a %>
